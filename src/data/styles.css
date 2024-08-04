@@ -1,3 +1,4 @@
+
 :root {
 	/* ------- colors ------- */
 	--primary-color: #27272a;
@@ -11,14 +12,28 @@
 	--primary-font: "Heebo", sans-serif;
 	--secondary-font: "Roboto", sans-serif;
 	/* --------------------- */
-
-	.responsive-iframe {
-		border: none;
-		width: 100%;
-		height: auto;
-		max-width: 800px;
-		max-height: 600px;
-	}
-
 }
 
+.responsive-iframe-container {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%; /* 16:9 aspect ratio */
+	overflow: hidden;
+	max-width: 800px;
+	max-height: 600px;
+}
+
+.responsive-iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+.centered-image {
+	display: block;
+	margin: 0 auto;
+}

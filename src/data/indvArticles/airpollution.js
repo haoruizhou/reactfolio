@@ -3,7 +3,7 @@ import React from "react";
 
 export function airpollution() {
     return {
-        date: "8 July 2024",
+        date: "1 March 2023",
         title: "Air Pollution and Economic Development in Colombia",
         description:
             "Explore the intricate relationship between air pollution and economic development in Colombia through the lens of the Environmental Kuznets Curve (EKC) hypothesis.",
@@ -63,11 +63,33 @@ export function airpollution() {
                         - In 2018, Colombia's GDP was $334.2 billion, making it the fourth-largest economy in South
                         America [6].
                     </p>
-                    <iframe
-                        src="../airpollution/Poster Assets/GlobalAnimated.gif"
-                        title="Air Pollution vs GDP Per Capita in London (1700-2015)"
-                        className="responsive-iframe"
-                    ></iframe>
+                    <div className="responsive-iframe-container">
+                        <iframe
+                            src="../airpollution/Poster Assets/GlobalAnimated-ezgif.com-resize.gif"
+                            title="Air Pollution vs GDP Per Capita in London (1700-2015)"
+                            className="responsive-iframe"
+                        ></iframe>
+                    </div>
+
+                    <h2>Data Involved</h2>
+                    <p>
+                        - Annual Mean Surface PM2.5 [ug/m3] at 0.01° × 0.01° [7]
+                        - Colombia 2018 Census [8]
+                        - Colombia Departmental GDP [9]
+                        - USGS GTOPO30 Elevation [10]
+                    </p>
+
+                    <h2>Methods</h2>
+                    <p>We analyzed how changes in air pollution relate to GDP over time by examining their spatial patterns.
+                        We found that air pollution shows a strong tendency to cluster in certain areas (local Moran’s I </p>
+                    <h2>Trends Discovered</h2>
+                    <h3>Inverted U Shape</h3>
+
+                    <h3>What about Altitude?</h3>
+
+                    <h2>Inequalities</h2>
+
+                    <h2>References</h2>
                 </div>
             </React.Fragment>
         ),
