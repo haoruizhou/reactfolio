@@ -67,3 +67,13 @@
 		max-width: 85%;
 	}
 }
+
+.article-thumbnail {
+	width: 100px; /* Adjust the width as needed */
+	margin-right: 20px; /* Space between the thumbnail and the content */
+}
+
+.article-thumbnail img {
+	width: 100%; /* Make the image take up the full width of the container */
+	height: auto; /* Maintain the aspect ratio */
+}

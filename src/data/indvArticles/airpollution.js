@@ -13,6 +13,7 @@ export function airpollution() {
             "EKC",
             "Colombia",
         ],
+        coverThumbnail: "/rapid/iowa.jpeg",
         style: `
 				.article-content {
 					display: flex;
