@@ -15,6 +15,7 @@ export function rapid() {
             "Remote Sensing",
             "RAPID"
         ],
+        coverThumbnail: "/rapid/iowa.jpeg",
         style: `
             .article-content {
                 display: flex;
@@ -25,6 +26,12 @@ export function rapid() {
         body: (
             <React.Fragment>
                 <div className="article-content">
+                    <img
+                        src="/rapid/iowa.jpeg"
+                        alt="Iowa Pairies"
+                        width={500}
+                        className={"centered-image"}
+                    />
                     <h2>Authors and Institution</h2>
                     <p>
                         This work was conducted by Haorui Zhou, UC Santa Barbara, Juliana Karl, University of Iowa, and
@@ -62,8 +69,8 @@ export function rapid() {
                         Raspberry Pi computer, and dual-mounted cameras. The total payload mass was 440 grams.
                         <img
                             src="/rapid/drone.png"
-                            alt="random"
-                            width={500}
+                            alt="Drone"
+                            width={300}
                             className={"centered-image"}
                         />
                     </p>
@@ -98,7 +105,9 @@ export function rapid() {
 
                     <h2>Acknowledgements</h2>
                     <p>
-                        We want to thank our mentors Susan Meerdink, Allison Jaynes, and Adam Skibbe, along with our drone pilot Mary De La Garza. We also thank the University of Iowa Office of the Vice President for Research for funding our project.
+                        We want to thank our mentors Susan Meerdink, Allison Jaynes, and Adam Skibbe, along with our
+                        drone pilot Mary De La Garza. We also thank the University of Iowa Office of the Vice President
+                        for Research for funding our project.
                     </p>
 
                     <h2>References</h2>
